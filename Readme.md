@@ -3,7 +3,7 @@
 二次封装的用于构建vue-plugin-hiprint打印套件的函数库，简化你的代码
 
 ## Demo 地址
-- [Vue2 项目]()
+- [Vue2 项目](https://finneganwx.github.io/vhip-demo-vue2/)
     - vue2 + element ui
     - vue2 + tailwind css
 

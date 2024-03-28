@@ -1,0 +1,30 @@
+{
+  "name": "vhip-easybuild-api",
+  "description": "A set of encapsulated APIs for building vue-plugin-hiprint tersely",
+  "private": false,
+  "keywords": [
+    "vue-plugin-hiprint",
+    "api",
+    "vhip"
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/vhip-easybuild-api.cjs",
+  "module": "dist/vhip-easybuild-api.js",
+  "author": {
+    "name": "finnegan",
+    "email": "finneganwx@outlook.com"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.1.6"
+  },
+  "dependencies": {
+    "vue-plugin-hiprint": "^0.0.56"
+  }
+}

@@ -65,10 +65,10 @@ import { EasyVhip } from 'vhip-easybuild-api';
  | createElemsGroup(groupName,elements) |  PrintElementTypeGroup 对象实例  | 创建元素分组 |
  | createProvider(providerName,...groups) |  Provider  | 创建初始化可用的 Provider |
  | initProviders(providers, initDefault = true) |  -  | 初始化元素提供程序，initDefault 控制是否初始化默认元素 |
- | buildElemsByUlist(providerName, containerKey) |  -  | 构建元素 |
- | buildElemsByHtml() |  -  | 构建元素 |
+ | buildElemsByUlist(providerName, containerKey) |  -  | 使用无序列表形式构建元素 |
+ | buildElemsByHtml() |  -  | 使用自定义HTML构建元素 |
  | createCoreObj(options) |  PrintTemplate 对象实例 | 创建核心对象，可以通过 options 传入配置选项 |
- | design(hiprintTemplate,canvasContainer,options) |  -  | 创建核心对象，通过传入 html 构建 |
+ | design(hiprintTemplate,canvasContainer,showGrid=true) |  -  | 画布设计 |
 
 
 ### Printer
@@ -83,7 +83,7 @@ import { EasyVhip } from 'vhip-easybuild-api';
  | updateTemplate(hiprintTemplate, template) |  -  | 更新模板 |
  | clearCanvas(hiprintTemplate) |  -  | 清空画布 |
  | rotatePaper(hiprintTemplate) |  -  | 旋转纸张 |
- |scaleContent(hiprintTemplate, scale, save = true) |  -  | 缩放，save 控制是否在打印时保持缩放效果 |
+ | scaleContent(hiprintTemplate, scale, save = true) |  -  | 缩放，save 控制是否在打印时保持缩放效果 |
 
 
  ### Assistant

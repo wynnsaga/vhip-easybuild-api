@@ -1,4 +1,4 @@
-import { util } from "../utils/util.js";
+import { util } from "../util/util.js";
 
 /**
  * 获取打印 HTML

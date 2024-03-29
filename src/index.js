@@ -3,11 +3,11 @@ import { hiPrintPlugin } from 'vue-plugin-hiprint';
 import { VhipBuilder } from './modules/build/index.js';
 import { VhipPrinter } from './modules/print/index.js';
 import { VhipAsst } from "./modules/assist/index.js";
-import { VhipUtil } from './modules/utils/index.js';
+import { VhipUtil } from './modules/util/index.js';
 
 export const EasyVhip = {
     install: function (Vue, {
-        modules = ['build', 'print', 'assist', 'utils'],
+        modules = ['build', 'print', 'assist', 'util'],
         autoConnect = true
     } = {}) {
         if (modules.includes('build')) {
@@ -19,7 +19,7 @@ export const EasyVhip = {
         if (modules.includes('assist')) {
             VhipAsst.install(Vue);
         }
-        if (modules.includes('utils')) {
+        if (modules.includes('util')) {
             VhipUtil.install(Vue);
         }
         if (!autoConnect) {

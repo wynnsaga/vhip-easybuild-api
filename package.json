@@ -7,7 +7,7 @@
     "api",
     "vhip"
   ],
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "MIT",
   "type": "module",
   "main": "dist/vhip-easybuild-api.cjs",

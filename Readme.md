@@ -2,7 +2,9 @@
 
 二次封装的用于构建 [vue-plugin-hiprint](https://gitee.com/CcSimple/vue-plugin-hiprint#%E5%85%B3%E4%BA%8E%E6%AD%A4%E6%8F%92%E4%BB%B6) 打印套件的函数库，简化你的代码
 
-文档地址：[vhip-easybuild-api docs](https://finneganwx.github.io/infinite-space/teches/vhip/install%26import/) 
+文档地址：[vhip-easybuild-api docs](https://finneganwx.github.io/infinite-space/myos/vhip/tutorial/install%26import/) 
+
+> v2.0.0 起支持 vue2/vue3，v1.1.1 仅支持 vue2. 对于 Vue3 项目，请使用 v2.0.0 及以上版本
 
 ## Demo 地址
 - [Vue2 项目](https://finneganwx.github.io/vhip-demo-vue2/)
@@ -29,12 +31,12 @@ npm install vhip-easybuild-api
 import { EasyVhip } from 'vhip-easybuild-api';
 Vue.use(EasyVhip, { autoConnect: false }); // autoConnect 是否自动连接打印客户端，默认true
 
-// 2. 按需导入：有选择地导入需要使用地模块 
+// 2. 按需导入：有选择地导入需要使用的模块 
 // VhipBuilder, VhipPrinter, VhipAsst, VhipUtil
 import { VhipBuilder } from 'vhip-easybuild-api';
 Vue.use(VhipBuilder);
 
-// 我们提供了另一种方式，你可以通过参数进行配置
+// 另外，我们提供了另一种按需导入的方式，你可以通过参数进行配置
 import { EasyVhip } from 'vhip-easybuild-api';
 Vue.use(EasyVhip, {
     modules: ['build','print','assist','util'], // 需要导入的模块，默认全部导入
@@ -57,6 +59,7 @@ import { EasyVhip } from 'vhip-easybuild-api';
 > 导入成功后就可以使用函数编写你的程序了，具体函数详情请参考文档 API 部分 ~
 
 ## API
+下列函数仅作检索使用，具体用法请查看文档， [API 文档地址 点击访问](https://finneganwx.github.io/infinite-space/myos/vhip/api/) 
 
 > 全局引入时，函数名具有 `$` 前缀，你可以通过 `this.$functionName()` 的形式进行调用，例: `this.$createCoreObj()` .
 

@@ -2,17 +2,18 @@
 
 二次封装的用于构建 [vue-plugin-hiprint](https://gitee.com/CcSimple/vue-plugin-hiprint#%E5%85%B3%E4%BA%8E%E6%AD%A4%E6%8F%92%E4%BB%B6) 打印套件的函数库，简化你的代码
 
-文档地址：[vhip-easybuild-api docs](https://finneganwx.github.io/infinite-space/myos/vhip/tutorial/install%26import/) 
+## 文档地址：
+[vhip-easybuild-api docs](https://finneganwx.github.io/infinite-space/myos/vhip/tutorial/install%26import/) 
 
 > v2.0.0 起支持 vue2/vue3，v1.1.1 仅支持 vue2. 对于 Vue3 项目，请使用 v2.0.0 及以上版本
 
 ## Demo 地址
-- [Vue2 项目](https://finneganwx.github.io/vhip-demo-vue2/)
-    - vue2 + element ui
-    - vue2 + tailwind css
+- Vue2 Demo
+    - Github: https://github.com/finneganwx/vhip-demo-vue2
+    - 在线浏览：https://finneganwx.github.io/vhip-demo-vue2/
 
-- [Vue3 项目]()
-    - 即将上线...
+- Vue3 Demo
+    - Github: https://github.com/finneganwx/vhip-demo-vue3
 
 ## 安装
 
